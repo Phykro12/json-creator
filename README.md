@@ -3,4 +3,4 @@ A minecraft json creator for @Phykro12 &amp; @Yongqi
 
 Written in VB
 
-Project by Phykro12
+Project started by Phykro12
