@@ -3,14 +3,13 @@
     Dim JsonText As String
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim user As String
-        user = InputBox("Enter your Minecraft Username", "Username confirm")
+        user = InputBox("Enter your Minecraft Username (Leave blank if you're not a member of PBS crafters)", "Username confirm")
         If user = "Phykro12" Then
             MsgBox("Welcome, Phykro12!", vbDefaultButton1, "Welcome")
         ElseIf user = "SourceCode_" Then
             MsgBox("Welcome, SourceCode_", vbDefaultButton1, "Welcome")
         Else
-            MsgBox("Your name is not in the list who can use this software, sorry.", vbExclamation, "Sorry")
-            Me.Close()
+            MsgBox("Welcome to json-creator!", vbDefaultButton1, "Welcome")
         End If
     End Sub
 
