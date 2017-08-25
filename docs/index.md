@@ -4,4 +4,4 @@ Minecraft Json Creator is a simple tool that can help you write commands such as
 
 This software is in progress and only has basic /tellraw generating functions.
 
-Click here to view the pre-release.
+Click [here](https://github.com/Phykro12/json-creator/releases) to view the pre-release.
