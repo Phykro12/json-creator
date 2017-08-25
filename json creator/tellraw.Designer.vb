@@ -153,6 +153,7 @@ Partial Class tellraw
         '
         'TextBox2
         '
+        Me.TextBox2.Font = New System.Drawing.Font("Avenir LT Std 45 Book", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(12, 267)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
