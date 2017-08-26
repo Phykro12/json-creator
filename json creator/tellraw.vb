@@ -111,7 +111,7 @@
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        ColorSelect = ComboBox1.SelectedItem
+        ColorSelect = Str(ComboBox1.SelectedItem)
         Select Case ColorSelect
             Case "None"
                 ColorStatus = ""
