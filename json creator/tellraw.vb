@@ -3,6 +3,7 @@
     Dim JsonText As String
     Dim Bold, Italic, Underlined, Strikethrough, Obfuscated, TextFormat As String
     Dim BoldStatus, ItalicStaus, UnderlinedStatus, StrikethroughStatus, ObfuscatedStatus, ColorSelect, ColorStatus As String
+    Dim TB3 As String
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -31,6 +32,10 @@
 
     Private Sub RadioButton4_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton4.CheckedChanged
         Target = "@e"
+    End Sub
+
+    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
+        TB3 = Replace(TextBox3.Text, """", "\""")
     End Sub
 
     Private Sub RadioButton5_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton5.CheckedChanged
@@ -97,7 +102,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        JsonText = "{""text"":""" + TextBox3.Text + """"
+        JsonText = "{""text"":""" + TB3 + """"
         Timer2.Enabled = True
     End Sub
 

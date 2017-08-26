@@ -26,7 +26,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Minecraft Json Creator</ProductName>
     <PublisherName>Phykro12</PublisherName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -78,6 +79,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Software Release|AnyCPU'">
+    <OutputPath>bin\Software Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
