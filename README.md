@@ -1,5 +1,5 @@
 # Json-Creator
-A minecraft json creator for @Phykro12 &amp; @Yongqi
+A simple minecraft json creator
 
 Written in VB
 
