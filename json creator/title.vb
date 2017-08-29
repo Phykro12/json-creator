@@ -17,7 +17,7 @@
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        Mode = Str(ComboBox1.SelectedItem)
+        Mode = ComboBox1.Text
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -58,6 +58,14 @@
     End Sub
 
     Private Sub title_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

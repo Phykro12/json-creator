@@ -35,7 +35,8 @@
     End Sub
 
     Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
-        TB3 = Replace(TextBox3.Text, """", "\""")
+        TB3 = Replace(TextBox3.Text, "\", "\\")
+        TB3 = Replace(TB3, """", "\""")
     End Sub
 
     Private Sub RadioButton5_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton5.CheckedChanged
@@ -111,7 +112,7 @@
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        ColorSelect = Str(ComboBox1.SelectedItem)
+        ColorSelect = ComboBox1.Text
         Select Case ColorSelect
             Case "None"
                 ColorStatus = ""
