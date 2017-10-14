@@ -10,7 +10,7 @@ Minecraft Json Creator is a simple tool that can help you write commands such as
 
 # Warning
 
-This software is still W.I.P._
+This software is still W.I.P.
 
 #
 
