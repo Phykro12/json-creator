@@ -15,3 +15,6 @@ This software is still W.I.P.
 ## Download
 
 Click [here](https://github.com/Phykro12/json-creator/releases) to view the pre-releases.
+
+##
+[Back to main page](https://phykro12.github.io/)
