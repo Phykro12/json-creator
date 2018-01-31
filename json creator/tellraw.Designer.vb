@@ -217,6 +217,7 @@ Partial Class tellraw
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Font = New System.Drawing.Font("Avenir LT Std 45 Book", 8.999999!, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox4.Location = New System.Drawing.Point(321, 93)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(100, 18)
@@ -227,6 +228,7 @@ Partial Class tellraw
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Font = New System.Drawing.Font("Avenir LT Std 45 Book", 8.999999!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox3.Location = New System.Drawing.Point(321, 69)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(86, 18)
