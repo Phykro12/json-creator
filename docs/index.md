@@ -1,6 +1,6 @@
 ## About Minecraft Json Creator
 
-Minecraft Json Creator is a simple tool that can help you write commands such as /tellraw, /title and so on.
+Minecraft Json Creator is a simple tool that can help you write commands such as /tellraw and /title.
 
 ## Features
 
